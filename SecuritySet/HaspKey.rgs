@@ -1,0 +1,26 @@
+HKCR
+{
+	SecuritySet.HaspKey.1 = s 'HaspKey Class'
+	{
+		CLSID = s '{CCD223DE-B3FB-4F5A-BB71-5268E2FCB4AB}'
+	}
+	SecuritySet.HaspKey = s 'HaspKey Class'
+	{
+		CLSID = s '{CCD223DE-B3FB-4F5A-BB71-5268E2FCB4AB}'
+		CurVer = s 'SecuritySet.HaspKey.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {CCD223DE-B3FB-4F5A-BB71-5268E2FCB4AB} = s 'HaspKey Class'
+		{
+			ProgID = s 'SecuritySet.HaspKey.1'
+			VersionIndependentProgID = s 'SecuritySet.HaspKey'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{FB3772A1-F645-4AE2-AE96-97709894FA0C}'
+		}
+	}
+}

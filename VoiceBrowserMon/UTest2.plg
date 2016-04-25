@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: UTest2 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/UTest2.res" /d "NDEBUG" /d "_AFXDLL" "F:\suddy\vc\VoiceBrowserMon\UTest2.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP87.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/UTest2.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\suddy\vc\VoiceBrowserMon\DebugUDP.cpp"
+"F:\suddy\vc\VoiceBrowserMon\EComboBox.cpp"
+"F:\suddy\vc\VoiceBrowserMon\EStatusBar.cpp"
+"F:\suddy\vc\VoiceBrowserMon\EToolBar.cpp"
+"F:\suddy\vc\VoiceBrowserMon\MainFrm.cpp"
+"F:\suddy\vc\VoiceBrowserMon\TerapicoOptionDialog.cpp"
+"F:\suddy\vc\VoiceBrowserMon\UTest2.cpp"
+"F:\suddy\vc\VoiceBrowserMon\UTest2Doc.cpp"
+"F:\suddy\vc\VoiceBrowserMon\UTest2View.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP87.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP88.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/UTest2.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\suddy\vc\VoiceBrowserMon\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP88.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP89.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/UTest2.pdb" /machine:I386 /out:"Release/UTest2.exe" 
+.\Release\DebugUDP.obj
+.\Release\EComboBox.obj
+.\Release\EStatusBar.obj
+.\Release\EToolBar.obj
+.\Release\MainFrm.obj
+.\Release\StdAfx.obj
+.\Release\TerapicoOptionDialog.obj
+.\Release\UTest2.obj
+.\Release\UTest2Doc.obj
+.\Release\UTest2View.obj
+.\Release\UTest2.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP89.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+F:\suddy\vc\VoiceBrowserMon\UTest2.rc(10) : fatal error RC1015: cannot open include file 'afxres.h'.
+Error executing rc.exe.
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP8A.tmp" with contents
+[
+/nologo /o"Release/UTest2.bsc" 
+.\Release\StdAfx.sbr
+.\Release\DebugUDP.sbr
+.\Release\EComboBox.sbr
+.\Release\EStatusBar.sbr
+.\Release\EToolBar.sbr
+.\Release\MainFrm.sbr
+.\Release\TerapicoOptionDialog.sbr
+.\Release\UTest2.sbr
+.\Release\UTest2Doc.sbr
+.\Release\UTest2View.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP8A.tmp"
+Creating browse info file...
+BSCMAKE: error BK1506 : cannot open file '.\Release\StdAfx.sbr': No such file or directory
+Error executing bscmake.exe.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+UTest2.exe - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

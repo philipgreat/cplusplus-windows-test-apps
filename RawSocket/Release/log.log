@@ -1,0 +1,498 @@
+
+[ UDP]   10.130.28.167 =>     239.2.11.71 < 00040 >32777-> 8649
+[ UDP]   10.130.28.167 =>     239.2.11.71 < 00036 >32777-> 8649
+[ TCP]   10.130.28.227 =>    211.96.27.85 < 00064 >
+ =============== 4929-> 8080================= 
+´
+
+[ TCP]   10.130.28.227 =>  202.108.37.243 < 00451 >
+ =============== 4671->   80================= 
+GET /list=sh601398,sh601988 HTTP/1.1
+Host: hq.sinajs.cn
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.8.1.1) Gecko/20061204 Firefox/2.0.0.1
+Accept: */*
+Accept-Language: zh-cn,en-us;q=0.7,en;q=0.3
+Accept-Encoding: gzip,deflate
+Accept-Charset: x-gbk,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://finance.sina.com.cn/stock/jsy/20070122/15053270088.shtml
+
+
+[ TCP]  202.108.37.243 =>   10.130.28.227 < 00636 >
+ ===============   80-> 4671================= 
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Content-Length: 469
+Connection: Keep-Alive
+Content-Type: text/html; charset=GBK
+
+var hq_str_sh601398="¹¤ÉÌÒøÐÐ,5.34,5.31,5.48,5.5,5.34,5.48,5.49,379154999,2061637253,906987,5.48,2626370,5.47,4463349,5.46,5630000,5.45,5994902,5.44,6132009,5.49,15852972,5.5,2272299,5.51,2370350,5.52,1559781,5.53,2007-01-22,15:05:31";
+var hq_str_sh601988="ÖÐ¹úÒøÐÐ,4.89,4.85,5.02,5.02,4.86,5.01,5.02,317348446,1574601626,768822,5.01,2447160,5,3030246,4.99,2242092,4.98,943500,4.97,1117032,5.02,3055924,5.03,2157327,5.04,7199702,5.05,1662900,5.06,2007-01-22,15:05:31";
+
+[ TCP]   10.130.28.227 =>  202.108.37.243 < 00040 >
+ =============== 4671->   80================= 
+
+[ TCP]   10.130.28.227 =>    211.96.27.85 < 00040 >
+ =============== 4929-> 8080================= 
+
+[ TCP]    211.96.27.85 =>   10.130.28.227 < 00052 >
+ =============== 8080-> 4929================= 
+°
+[ TCP]   10.130.28.227 =>    211.96.27.85 < 00286 >
+ =============== 4929-> 8080================= 
+POST /login/loginAction.do HTTP/1.1
+User-Agent: Java/1.5.0_05
+Host: 211.96.27.85:8080
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+Connection: keep-alive
+Content-type: application/x-www-form-urlencoded
+Content-Length: 45
+
+
+[ TCP]   10.130.28.227 =>    211.96.27.85 < 00085 >
+ =============== 4929-> 8080================= 
+loginName=zhangyu&passwd=123456&reqCode=login
+[ TCP]    211.96.27.85 =>   10.130.28.227 < 00040 >
+ =============== 8080-> 4929================= 
+
+[ TCP]   10.130.28.227 =>    211.96.27.85 < 00085 >
+ =============== 4929-> 8080================= 
+loginName=zhangyu&passwd=123456&reqCode=login
+[ UDP]   10.130.28.164 =>     239.2.11.71 < 00036 >32825-> 8649
+[ UDP]   10.130.28.164 =>     239.2.11.71 < 00036 >32825-> 8649
+[ UDP]   10.130.28.164 =>     239.2.11.71 < 00036 >32825-> 8649
+[ UDP]   10.130.28.166 =>     239.2.11.71 < 00036 >32939-> 8649
+[ UDP]   10.130.28.166 =>     239.2.11.71 < 00036 >32939-> 8649
+[ UDP]   10.130.28.166 =>     239.2.11.71 < 00036 >32939-> 8649
+[ UDP]   10.130.28.166 =>     239.2.11.71 < 00036 >32939-> 8649
+[ UDP]   10.130.28.166 =>     239.2.11.71 < 00036 >32939-> 8649
+[ UDP]   10.130.28.166 =>     239.2.11.71 < 00036 >32939-> 8649
+[ UDP]   10.130.28.166 =>     239.2.11.71 < 00036 >32939-> 8649
+[ UDP]     192.168.1.3 => 239.255.255.250 < 00304 > 1900-> 1900
+[ UDP]     192.168.1.3 => 239.255.255.250 < 00299 > 1900-> 1900
+[ UDP]     192.168.1.3 => 239.255.255.250 < 00376 > 1900-> 1900
+[ UDP]     192.168.1.3 => 239.255.255.250 < 00368 > 1900-> 1900
+[ UDP]     192.168.1.3 => 239.255.255.250 < 00299 > 1900-> 1900
+[ UDP]     192.168.1.3 => 239.255.255.250 < 00352 > 1900-> 1900
+[ UDP]     192.168.1.3 => 239.255.255.250 < 00384 > 1900-> 1900
+[ UDP]     192.168.1.3 => 239.255.255.250 < 00299 > 1900-> 1900
+[ UDP]     192.168.1.3 => 239.255.255.250 < 00372 > 1900-> 1900
+[ UDP]     192.168.1.3 => 239.255.255.250 < 00366 > 1900-> 1900
+[ UDP]     192.168.1.3 => 239.255.255.250 < 00368 > 1900-> 1900
+[ TCP]    211.96.27.85 =>   10.130.28.227 < 00040 >
+ =============== 8080-> 4929================= 
+
+[ TCP]   10.130.28.227 =>    211.96.27.85 < 00052 >
+ =============== 4929-> 8080================= 
+
+§çþ§è
+[ TCP]    211.96.27.85 =>   10.130.28.227 < 00553 >
+ =============== 8080-> 4929================= 
+   			<frame name="main1" src="welcome.jsp" target="_self" noresize id="main1">
+	    			<frame name="status" src="status.jsp" target="_self" scrolling="no" noresize id="status">
+				</frameset>
+		</frameset>
+	<noframes>
+		<body onload="javascript:Document_onLoad()">
+			<table width="100%" height="100%">
+			<tr>
+				<td align="center" valign="middle"><font size="5" color="red">´ËÍøÒ³Ê¹ÓÃÁË¿ò¼Ü£¬µ«ÄúµÄä¯ÀÀÆ÷²»Ö§³Ö¿ò¼Ü¡£</font></td>
+			</tr>
+			</table>
+		</body>
+	</noframes>
+</frameset>
+</HTML>
+
+[ TCP]    211.96.27.85 =>   10.130.28.227 < 01240 >
+ =============== 8080-> 4929================= 
+HTTP/1.1 200 OK
+Server: Resin/3.0.22
+Pragma: No-cache
+Cache-Control: no-cache,no-store,max-age=0
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: JSESSIONID=abcoGPdGjixnP75PBNjbr; path=/
+Content-Type: text/html; charset=gbk
+Transfer-Encoding: chunked
+Date: Mon, 22 Jan 2007 11:43:01 GMT
+
+057f
+
+
+
+
+
+<HTML>
+<HEAD>
+  <base href="http://211.96.27.85:8080/index.jsp">
+<META http-equiv="Content-Type" content="text/html; charset=GB2312">
+<META name="GENERATOR" content="IBM WebSphere Studio">
+
+		
+<title>Í³Ò»ÒµÎñ¹ÜÀíÆ½Ì¨</title>
+</head>
+<frameset rows="71,*" id="fraMain"   framespacing="0" border="0" frameborder="0">
+	<frame name="top" scrolling="no" noresize target="contents" src="top.jsp" id="banner">
+		<frameset cols="160,19,*" id="fraContent">
+	
+    
+    
+    <frame name="left" src="/jsp/menu/strutsMenuTree/strutsMenuTree.jsp" noresize id="left">
+    
+    		<FRAME border=0 frameBorder=0 marginHeight=0 marginWidth=0 name=banner scrolling=no src="leftBanner.jsp" style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none" LEFTMARGIN="0" TOPMARGIN="0" noresize target="_self">
+				<frameset rows="*,27">
+	 
+[ TCP]   10.130.28.227 =>    211.96.27.85 < 00040 >
+ =============== 4929-> 8080================= 
+
+[ TCP]    211.96.27.85 =>   10.130.28.227 < 00047 >
+ =============== 8080-> 4929================= 
+
+0
+
+
+[ TCP]   10.130.28.227 =>    211.96.27.85 < 00341 >
+ =============== 4929-> 8080================= 
+POST /cfgOrderRelationAction.do HTTP/1.1
+Cookie: JSESSIONID=abcoGPdGjixnP75PBNjbr; path=/
+User-Agent: Java/1.5.0_05
+Host: 211.96.27.85:8080
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+Connection: keep-alive
+Content-type: application/x-www-form-urlencoded
+Content-Length: 76
+
+
+[ TCP]   10.130.28.227 =>    211.96.27.85 < 00116 >
+ =============== 4929-> 8080================= 
+startDate&status&2reqCode&exportDatauserId&setOrderCode&0bookSource&endDate&
+[ TCP]    211.96.27.85 =>   10.130.28.227 < 00040 >
+ =============== 8080-> 4929================= 
+
+[ TCP]    211.96.27.85 =>   10.130.28.227 < 00040 >
+ =============== 8080-> 4929================= 
+
+[ TCP]    211.96.27.85 =>   10.130.28.227 < 01240 >
+ =============== 8080-> 4929================= 
+HTTP/1.1 200 OK
+Server: Resin/3.0.22
+Pragma: No-cache
+Cache-Control: no-cache,no-store,max-age=0
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html; charset=GBK
+Transfer-Encoding: chunked
+Date: Mon, 22 Jan 2007 11:43:02 GMT
+
+2eb6
+
+
+
+
+
+<html>
+	<head>
+		<title>´íÎóÒ³Ãæ</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+		<script language="Javascript1.1" src="/js/commonJSFunctions.js"></script>
+		
+    
+
+<script language="javascript" src="/js/DateUtils.js"></script>
+<script>
+var gcToggle = "#ffff00";
+var gcBG = "#CCCCFF";
+
+function fPopUpCalendarDlg(ctrlobj, startYear, endYear)
+{
+	if(!new DataUtils().validateDate(ctrlobj.value) && ctrlobj.value != ""){
+		ctrlobj.value = "";
+	}
+
+	showx = event.screenX - event.offsetX ; // + deltaX;
+	showy = event.screenY - event.offsetY +20; // + deltaY;
+	newWINwidth = 210 + 4 + 18;
+	var dlgArgs = "|";
+	switch(arguments.length)
+	{
+		case 2:
+			dlgArgs = startYear + "|";
+		break;
+		case 3:
+			dlgArgs = startYear + "|" + endYear;
+		break;
+	}
+	//°ÑÑ¡ÔñµÄÈÕÆÚ´øµ½Ñ¡ÔñÒ³ÖÐ
+	dlgArgs += "|" + ctrlobj.value ;
+
+	retval = window.showModalDialog("/js/calendar/calendardlg.htm", dl
+[ TCP]    211.96.27.85 =>   10.130.28.227 < 01240 >
+ =============== 8080-> 4929================= 
+gArgs, "dialogWidth:178px; dialogHeight:196px; dialogLeft:"+showx+"px; dialogTop:"+showy+"px; status:no; directories:yes;scrollbars:no;Resizable=no;help=no "  );
+	if( retval != null ){
+		ctrlobj.value = retval;
+	}
+}
+
+function fPopUpHourMinuteSecondDlg(ctrlobj, startYear, endYear)
+{
+	if(!new DateTimeUtils().validateDateTime(ctrlobj.value) && ctrlobj.value != ""){
+		ctrlobj.value = "";
+	}
+
+	showx = event.screenX - event.offsetX ; // + deltaX;
+	showy = event.screenY - event.offsetY +20; // + deltaY;
+	newWINwidth = 210 + 4 + 18;
+	var dlgArgs = "|";
+	switch(arguments.length)
+	{
+		case 2:
+			dlgArgs = startYear + "|";
+		break;
+		case 3:
+			dlgArgs = startYear + "|" + endYear;
+		break;
+	}
+	//°ÑÑ¡ÔñµÄÈÕÆÚÊ±¼ä´øµ½Ñ¡ÔñÒ³ÖÐ
+	dlgArgs += "|" + ctrlobj.value ;
+
+	retval = window.showModalDialog("/js/calendar/hourminuteseconddlg.htm", dlgArgs, "dialogWidth:178px; dialogHeight:216px; dialogLeft:"+showx+"px; dialogTop:"+showy+"px; status:no; directories:yes;scrollbars:no;Resizable=no;help=no "  );
+	if( retval != null ){
+		ctrlobj.value = retval;
+	}
+}
+
+function fPopUpYearMonthDlg(ctrlobj, startYear, endYear)
+{
+	showx = event.screenX - event.offsetX ; // + deltaX;
+
+[ TCP]   10.130.28.227 =>    211.96.27.85 < 00040 >
+ =============== 4929-> 8080================= 
+
+[ TCP]    211.96.27.85 =>   10.130.28.227 < 01240 >
+ =============== 8080-> 4929================= 
+	showy = event.screenY - event.offsetY +20; // + deltaY;
+	newWINwidth = 210;
+	var dlgArgs = "|";
+	switch(arguments.length)
+	{
+		case 2:
+			dlgArgs = startYear + "|";
+		break;
+		case 3:
+			dlgArgs = startYear + "|" + endYear;
+		break;
+	}
+
+	retval = window.showModalDialog("/js/calendar/yearmonthdlg.htm", dlgArgs, "dialogWidth:130px; dialogHeight:160px; dialogLeft:"+showx+"px; dialogTop:"+showy+"px; status:no; directories:yes;scrollbars:no;Resizable=no;help=no "  );
+	if( retval != null ){
+		ctrlobj.value = retval;
+	}
+}
+
+	function SelectDateSoon(valueObject){
+			/*
+				ÓÃÓÚÈÕÆÚµÄ×Ô¶¯¸ü¸Ä(ÉÏº£ÁªÍ¨¸½¼þ¶ÌÐÅÌá³öÐèÇó)
+			*/
+			var nowDate=new Date();	
+			var lastDate;		
+			//window.alert(valueObject.value);
+			//window.alert(nowDate.getFullYear());
+			//window.alert(nowDate.getMonth());
+			//window.alert(nowDate.getDate());
+			var nowDay=nowDate.getDate()-valueObject.value;
+			var lastString;	
+			//Èç¹û´«ÈëµÄÖµÎª¸ºÊý,ÔòÏÔÊ¾µ±ÔÂµÄ
+			if(valueObject.value<0){
+				lastDate=new Date(nowDate.getFullYear(),nowDate.getMonth(),1);
+			}			
+			//ÅÐ¶ÏÊÇ·ñµ÷ÓÃµÄÎª¼ÆËãÒ»¸öÔÂ
+			else if(valueObject.value==29){
+				var getLastDayForThisMonth=new Date(nowDate.getFullYea
+[ TCP]   10.130.28.227 =>  202.108.37.243 < 00451 >
+ =============== 4671->   80================= 
+GET /list=sh601398,sh601988 HTTP/1.1
+Host: hq.sinajs.cn
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.8.1.1) Gecko/20061204 Firefox/2.0.0.1
+Accept: */*
+Accept-Language: zh-cn,en-us;q=0.7,en;q=0.3
+Accept-Encoding: gzip,deflate
+Accept-Charset: x-gbk,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://finance.sina.com.cn/stock/jsy/20070122/15053270088.shtml
+
+
+[ TCP]  202.108.37.243 =>   10.130.28.227 < 00636 >
+ ===============   80-> 4671================= 
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Content-Length: 469
+Connection: Keep-Alive
+Content-Type: text/html; charset=GBK
+
+var hq_str_sh601398="¹¤ÉÌÒøÐÐ,5.34,5.31,5.48,5.5,5.34,5.48,5.49,379154999,2061637253,906987,5.48,2626370,5.47,4463349,5.46,5630000,5.45,5994902,5.44,6132009,5.49,15852972,5.5,2272299,5.51,2370350,5.52,1559781,5.53,2007-01-22,15:05:31";
+var hq_str_sh601988="ÖÐ¹úÒøÐÐ,4.89,4.85,5.02,5.02,4.86,5.01,5.02,317348446,1574601626,768822,5.01,2447160,5,3030246,4.99,2242092,4.98,943500,4.97,1117032,5.02,3055924,5.03,2157327,5.04,7199702,5.05,1662900,5.06,2007-01-22,15:05:31";
+
+[ TCP]   10.130.28.227 =>  202.108.37.243 < 00040 >
+ =============== 4671->   80================= 
+
+[ TCP]   10.130.28.227 =>    211.96.27.85 < 00040 >
+ =============== 4929-> 8080================= 
+
+[ TCP]    211.96.27.85 =>   10.130.28.227 < 01240 >
+ =============== 8080-> 4929================= 
+r(),nowDate.getMonth()+1,"0");	
+				var lastDayForThisMonth=getLastDayForThisMonth.getDate();
+				var dayForFrontMonth=nowDate.getDate()-lastDayForThisMonth;
+				lastDate=new Date(nowDate.getFullYear(),nowDate.getMonth(),dayForFrontMonth);
+			}		
+			else{				
+				if(nowDay>0){				
+					lastDate=new Date(nowDate.getFullYear(),nowDate.getMonth(),nowDay);					
+				}
+				//Èç¹û×îºóµÄÌìÊýÎª¸ºÊýÔòÇ°ÒÆÒ»¸öÔÂ½øÐÐ¼ÆËã
+				else{
+					var tempDate=new Date();
+					tempDate.setDate(0);
+					lastDay=tempDate.getDate();					
+					lastDay=lastDay+nowDay;					
+					lastDate=new Date(nowDate.getFullYear(),nowDate.getMonth()-1,lastDay);						
+				}
+				
+			}
+			//window.alert(nowDate.toLocaleString());
+			//window.alert(lastDate.toLocaleString());			
+			//document.forms[0].startDate.value=lastString;
+			//document.forms[0].endDate.value=nowDate.getFullYear()+"-"+(nowDate.getMonth()+1)+"-"+nowDate.getDate();
+			returnStringToText(lastDate,document.forms[0].startDate);
+			returnStringToText(nowDate,document.forms[0].endDate);
+		}
+	function returnStringToText(valueDate,textName){
+			/*
+				¸ñÊ½»¯×Ö·û´®²¢ÇÒ½«½á¹ûÊä³öµ½Ö¸¶¨Î»ÖÃ
+			*/
+			var thisYear=valueDate.getFullYear();
+[ TCP]    211.96.27.85 =>   10.130.28.227 < 01240 >
+ =============== 8080-> 4929================= 
+
+			var thisMonth=valueDate.getMonth()+1;
+			var thisDay=valueDate.getDate();
+			if(thisMonth<10){
+				thisMonth="0"+thisMonth;
+			}
+			if(thisDay<10){
+				thisDay="0"+thisDay;
+			}
+			textName.value=thisYear+"-"+thisMonth+"-"+thisDay;
+	}
+</script>
+
+    
+		<link rel="stylesheet" href="/layout-config/default.css" type="text/css">
+<script>var imgsrc="/images/layout/"; var scriptsrc="/layout-config/"; var langue="zh"; var contextPath="";</script><script src="/layout-config/javascript.js"></script>
+<script language="JavaScript">
+showStack = false;
+function swapStack()
+{
+	if(showStack == false) {
+		showStack = true;
+    stackTrace.innerHTML="<tr><td>&nbsp;</td><td>&nbsp;</td><td>javax.servlet.ServletException: Request[/cfgOrderRelationAction] does not contain handler parameter named 'reqCode'.  This may be caused by whitespace in the label text.<br>	at org.apache.struts.actions.DispatchAction.unspecified(DispatchAction.java:222)<br>	at org.apache.struts.actions.DispatchAction.dispatchMethod(DispatchAction.java:256)<br>	at org.apache.struts.actions.DispatchAction.execute(DispatchAction.java:194)<br>	at com.qnuse.qframe.base.controller.BaseAction.execute(BaseAction.jav
+[ TCP]   10.130.28.227 =>    211.96.27.85 < 00040 >
+ =============== 4929-> 8080================= 
+
+[ TCP]    211.96.27.85 =>   10.130.28.227 < 01240 >
+ =============== 8080-> 4929================= 
+a:276)<br>	at com.qnuse.qframe.extensions.controller.BaseAuthorizationAction.execute(BaseAuthorizationAction.java:89)<br>	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:419)<br>	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:224)<br>	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1196)<br>	at org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:432)<br>	at javax.servlet.http.HttpServlet.service(HttpServlet.java:154)<br>	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)<br>	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)<br>	at com.qnuse.qframe.common.utils.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:104)<br>	at com.caucho.server.dispatch.FilterFilterChain.doFilter(FilterFilterChain.java:70)<br>	at org.springframework.orm.hibernate.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:171)<br>	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)<br>	at com.caucho.server.dispatch.FilterFilterChain.doFilter(FilterFilterChain.java:70)<br>	at com.
+[ TCP]    211.96.27.85 =>   10.130.28.227 < 01240 >
+ =============== 8080-> 4929================= 
+qnuse.xsm.util.Log4jNdcFilter.doFilter(Log4jNdcFilter.java:67)<br>	at com.caucho.server.dispatch.FilterFilterChain.doFilter(FilterFilterChain.java:70)<br>	at com.opensymphony.module.sitemesh.filter.PageFilter.parsePage(PageFilter.java:118)<br>	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:52)<br>	at com.caucho.server.dispatch.FilterFilterChain.doFilter(FilterFilterChain.java:70)<br>	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)<br>	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)<br>	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)<br>	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)<br>	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:520)<br>	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)<br>	at java.lang.Thread.run(Thread.java:595)<br></td></tr>";
+  }
+  else {
+    showStack = false;
+    stackTrace.innerHTML="&nbsp;";
+  }
+}
+
+</script>
+	</head>
+
+<body >
+
+	  <br>
+		<!-- Copyright (c) 2002 by ObjectLearn. All Rights Reserved. -->
+
+
+
+
+<center>
+<TABLE WIDTH="95%" BORDER=0 CELLPADDING=0 CELLSPACING=0>
+   
+[ TCP]   10.130.28.227 =>    211.96.27.85 < 00040 >
+ =============== 4929-> 8080================= 
+
+[ TCP]    211.96.27.85 =>   10.130.28.227 < 01240 >
+ =============== 8080-> 4929================= 
+     
+        <TR> 
+          
+      <TD height="450" valign="top" > 
+        <TABLE WIDTH="95%" BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR> 
+            <TD height="200" valign="top" > <table width="95%" border="0" align="center" cellspacing="0">
+                <td height="200" align="center" valign="middle" bgcolor="#FFFFFF"> 
+                  <TABLE cellSpacing=0 cellPadding=0 width="95%" border=0>
+                    <TBODY>
+                      <!--TR> 
+                        <TD colSpan=4><img height=9 src="/images/table_05.gif" 
+                  width="350"></TD>
+                      </TR-->
+                      <TR> 
+                     <!--TD vAlign=top background=images/table_06.gif colSpan=4 height=149-->
+                        <TD vAlign=top colSpan=4 height=149>
+                         <TABLE borderColor=#dcdcb8 cellSpacing=0 
+                  borderColorDark=#ffffff cellPadding=3 width="95%" align=center 
+                  bgColor=#f5f8fa borderColorLight=#999999 border=1>
+                            <TBODY>
+                              <TR align=left> 
+                                <TD vAlign=center align=center height=148
+[ TCP]   10.130.28.227 =>    211.96.27.85 < 00040 >
+ =============== 4929-> 8080================= 
+
+[ TCP]    211.96.27.85 =>   10.130.28.227 < 01240 >
+ =============== 8080-> 4929================= 
+> <P><IMG height=78 src="/images/error.gif" 
+                        width=213></P>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tr> 
+                                        <td width="21%">&nbsp;</td>
+                                        <td width="89%"> 
+                                          
+                                          ´íÎóÃèÊö£º 
+                                          
+
+
+
+
+
+
+    <div class="error">	
+        
+            <img src="/images/iconWarning.gif" class="icon" alt="¾¯¸æ">
+            ÏµÍ³´íÎó!<br/>
+        
+    </div>
+
+
+
+ 
+                                        </td>
+                                      </tr>
+                                      <tr> 
+                                        <td>&nbsp;</td>
+                                        <td> Äú¿ÉÒÔµã»÷¡°·µ »Ø¡±°´Å¥ºóÍË£¬µã»÷¡°ÖØ ÊÔ¡±°´Å¥ÔÙÊÔÒ»´Î£¡</td>
+                                      </tr>
+                                    </table>
+                                    <P> 
+                                      <input name="button" type="button" class="bu
+[ TCP]    211.96.27.85 =>  

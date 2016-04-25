@@ -1,0 +1,24 @@
+LIBRARY         E2C
+SECTIONS
+			.freepydic READ WRITE SHARED
+EXPORTS
+                ; IME DDI
+                ImeConversionList
+                ImeConfigure
+                ImeDestroy
+                ImeEscape
+                ImeInquire
+                ImeProcessKey
+                ImeSelect
+                ImeSetActiveContext
+                ImeToAsciiEx
+                NotifyIME
+                ImeRegisterWord
+                ImeUnregisterWord
+                ImeGetRegisterWordStyle
+                ImeEnumRegisterWord
+                ImeSetCompositionString
+                ImeGetImeMenuItems
+                E2CWndProc                
+                StatusWndProc
+                CandWndProc

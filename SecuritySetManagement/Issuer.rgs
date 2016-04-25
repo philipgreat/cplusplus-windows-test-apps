@@ -1,0 +1,26 @@
+HKCR
+{
+	SecuritySetManagement.Issuer.1 = s 'Issuer Class'
+	{
+		CLSID = s '{B3091848-9674-4703-87CE-4DB145309BD4}'
+	}
+	SecuritySetManagement.Issuer = s 'Issuer Class'
+	{
+		CLSID = s '{B3091848-9674-4703-87CE-4DB145309BD4}'
+		CurVer = s 'SecuritySetManagement.Issuer.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {B3091848-9674-4703-87CE-4DB145309BD4} = s 'Issuer Class'
+		{
+			ProgID = s 'SecuritySetManagement.Issuer.1'
+			VersionIndependentProgID = s 'SecuritySetManagement.Issuer'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{65BFBC85-EE9E-4406-8744-79FB7BCAABCE}'
+		}
+	}
+}

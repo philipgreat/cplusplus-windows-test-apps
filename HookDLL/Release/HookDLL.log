@@ -1,0 +1,30 @@
+﻿Build started 2012/3/14 22:08:06.
+     1>Project "F:\suddy\vc\HookDLL\HookDLL.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\HookDLL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\DEV\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt Hook.c
+         Hook.c
+     1>Hook.c(132): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DEV\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\DEV\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\suddy\vc\ShotTest2\Release\HookDLL.dll" /VERSION:"1.2.3" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\HookDLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\suddy\vc\ShotTest2\Release\HookDLL.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"HookDLL.lib" /MACHINE:X86 /DLL Release\HookDLL.dll.embed.manifest.res
+         Release\Hook.obj /def:Hook.def 
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+            Creating library HookDLL.lib and object HookDLL.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Release\HookDLL.dll.embed.manifest" /manifest Release\HookDLL.dll.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         HookDLL.vcxproj -> F:\suddy\vc\ShotTest2\Release\HookDLL.dll
+       FinalizeBuildStatus:
+         Deleting file "Release\HookDLL.unsuccessfulbuild".
+         Touching "Release\HookDLL.lastbuildstate".
+     1>Done Building Project "F:\suddy\vc\HookDLL\HookDLL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.16

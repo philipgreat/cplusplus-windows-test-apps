@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WindowsImpl - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSPC1.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/WindowsImpl.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"F:\suddy\vc\SystemPackage\WindowsImpl\WindowsSocket.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSPC1.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSPC2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/WindowsImpl.pdb" /debug /machine:I386 /out:"Debug/WindowsImpl.exe" /pdbtype:sept 
+.\Debug\StdAfx.obj
+.\Debug\WindowsImpl.obj
+.\Debug\WindowsSocket.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSPC2.tmp"
+<h3>Output Window</h3>
+Compiling...
+WindowsSocket.cpp
+f:\suddy\vc\systempackage\windowsimpl\windowssocket.h(16) : error C2061: syntax error : identifier 'string'
+f:\suddy\vc\systempackage\windowsimpl\windowssocket.h(17) : error C2535: 'int __thiscall CWindowsSocket::Connect(void)' : member function already defined or declared
+        f:\suddy\vc\systempackage\windowsimpl\windowssocket.h(16) : see declaration of 'Connect'
+f:\suddy\vc\systempackage\windowsimpl\windowssocket.h(19) : error C2629: unexpected 'class CWindowsSocket ('
+f:\suddy\vc\systempackage\windowsimpl\windowssocket.h(19) : error C2238: unexpected token(s) preceding ';'
+f:\suddy\vc\systempackage\windowsimpl\windowssocket.h(20) : error C2523: 'CWindowsSocket::~CSocket' : destructor tag mismatch
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+SystemPackage.exe - 5 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

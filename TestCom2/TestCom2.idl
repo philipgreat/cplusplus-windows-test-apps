@@ -1,0 +1,39 @@
+// TestCom2.idl : IDL source for TestCom2.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (TestCom2.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(00CCD93A-A357-499D-99F4-5BF95B9E05F4),
+		dual,
+		helpstring("IKey Interface"),
+		pointer_default(unique)
+	]
+	interface IKey : IDispatch
+	{
+		[id(1), helpstring("method hashCode")] HRESULT hashCode([out,retval]BSTR * result);
+	};
+
+[
+	uuid(4BEC945F-8932-4A3E-BE4B-F8C279F58EC6),
+	version(1.0),
+	helpstring("TestCom2 1.0 Type Library")
+]
+library TESTCOM2Lib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(D927614A-B947-416E-9E86-33F389A878B0),
+		helpstring("Key Class")
+	]
+	coclass Key
+	{
+		[default] interface IKey;
+	};
+};

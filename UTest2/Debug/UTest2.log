@@ -1,0 +1,11 @@
+﻿Build started 2013-4-12 23:37:52.
+     1>Project "F:\suddy\archived\vc\UTest2\UTest2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\UTest2.pch" /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>f:\suddy\archived\vc\utest2\stdafx.h(15): fatal error C1083: Cannot open include file: 'afxwin.h': No such file or directory
+     1>Done Building Project "F:\suddy\archived\vc\UTest2\UTest2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.87

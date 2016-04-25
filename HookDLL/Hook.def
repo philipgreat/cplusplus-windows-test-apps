@@ -1,0 +1,10 @@
+
+LIBRARY 	HookDLL
+VERSION 	2.3
+SECTIONS
+    ._WINCAP READ WRITE SHARED
+EXPORTS
+
+   InstallHook                  ; For Keyboard Hook
+   KeyboardHook                 ; For Keyboard Hook
+

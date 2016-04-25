@@ -1,0 +1,96 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WapGate - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP520.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\suddy\vc\WapGate\TeraPicoClientSocket.cpp"
+"F:\suddy\vc\WapGate\TeraPicoHttpBody.cpp"
+"F:\suddy\vc\WapGate\TeraPicoHttpContent.cpp"
+"F:\suddy\vc\WapGate\TeraPicoHttpHeader.cpp"
+"F:\suddy\vc\WapGate\TeraPicoHttpRequest.cpp"
+"F:\suddy\vc\WapGate\TeraPicoLocalUdpSocket.cpp"
+"F:\suddy\vc\WapGate\TeraPicoLogFile.cpp"
+"F:\suddy\vc\WapGate\TeraPicoMemoryPool.cpp"
+"F:\suddy\vc\WapGate\TeraPicoRemoteSocket.cpp"
+"F:\suddy\vc\WapGate\TeraPicoRemoteUdpSocket.cpp"
+"F:\suddy\vc\WapGate\TeraPicoServerSocket.cpp"
+"F:\suddy\vc\WapGate\TeraPicoWapGateService.cpp"
+"F:\suddy\vc\WapGate\WapGate.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP520.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP521.tmp" with contents
+[
+WS2_32.LIB kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/WapGate.pdb" /debug /machine:I386 /out:"Debug/WapGate.exe" /pdbtype:sept 
+.\Debug\StdAfx.obj
+.\Debug\TeraPicoClientSocket.obj
+.\Debug\TeraPicoHttpBody.obj
+.\Debug\TeraPicoHttpContent.obj
+.\Debug\TeraPicoHttpHeader.obj
+.\Debug\TeraPicoHttpRequest.obj
+.\Debug\TeraPicoLocalUdpSocket.obj
+.\Debug\TeraPicoLogFile.obj
+.\Debug\TeraPicoMemoryPool.obj
+.\Debug\TeraPicoRemoteSocket.obj
+.\Debug\TeraPicoRemoteUdpSocket.obj
+.\Debug\TeraPicoServerSocket.obj
+.\Debug\TeraPicoWapGateService.obj
+.\Debug\WapGate.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP521.tmp"
+<h3>Output Window</h3>
+Compiling...
+TeraPicoClientSocket.cpp
+TeraPicoHttpBody.cpp
+TeraPicoHttpContent.cpp
+TeraPicoHttpHeader.cpp
+TeraPicoHttpRequest.cpp
+c:\program files\microsoft visual studio\vc98\include\list(176) : warning C4786: '?rbegin@?$list@PAVCTeraPicoHttpHeader@terapico@@V?$allocator@PAVCTeraPicoHttpHeader@terapico@@@std@@@std@@QAE?AV?$reverse_bidirectional_iterator@Viterator@?$list@PAVCTeraPicoHttpHeader@terapico@@V?$allocator@PAVCTeraPicoHttpHeader@terapico@@@std@@@std@@PAVCTeraPicoHttpHeader@terapico@@AAPAV45@PAPAV45@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        f:\suddy\vc\wapgate\terapicohttprequest.h(18) : see reference to class template instantiation 'std::list<class terapico::CTeraPicoHttpHeader *,class std::allocator<class terapico::CTeraPicoHttpHeader *> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\list(178) : warning C4786: '?rbegin@?$list@PAVCTeraPicoHttpHeader@terapico@@V?$allocator@PAVCTeraPicoHttpHeader@terapico@@@std@@@std@@QBE?AV?$reverse_bidirectional_iterator@Vconst_iterator@?$list@PAVCTeraPicoHttpHeader@terapico@@V?$allocator@PAVCTeraPicoHttpHeader@terapico@@@std@@@std@@PAVCTeraPicoHttpHeader@terapico@@ABQAV45@PBQAV45@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        f:\suddy\vc\wapgate\terapicohttprequest.h(18) : see reference to class template instantiation 'std::list<class terapico::CTeraPicoHttpHeader *,class std::allocator<class terapico::CTeraPicoHttpHeader *> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\list(180) : warning C4786: '?rend@?$list@PAVCTeraPicoHttpHeader@terapico@@V?$allocator@PAVCTeraPicoHttpHeader@terapico@@@std@@@std@@QAE?AV?$reverse_bidirectional_iterator@Viterator@?$list@PAVCTeraPicoHttpHeader@terapico@@V?$allocator@PAVCTeraPicoHttpHeader@terapico@@@std@@@std@@PAVCTeraPicoHttpHeader@terapico@@AAPAV45@PAPAV45@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        f:\suddy\vc\wapgate\terapicohttprequest.h(18) : see reference to class template instantiation 'std::list<class terapico::CTeraPicoHttpHeader *,class std::allocator<class terapico::CTeraPicoHttpHeader *> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\list(181) : warning C4786: '?rend@?$list@PAVCTeraPicoHttpHeader@terapico@@V?$allocator@PAVCTeraPicoHttpHeader@terapico@@@std@@@std@@QBE?AV?$reverse_bidirectional_iterator@Vconst_iterator@?$list@PAVCTeraPicoHttpHeader@terapico@@V?$allocator@PAVCTeraPicoHttpHeader@terapico@@@std@@@std@@PAVCTeraPicoHttpHeader@terapico@@ABQAV45@PBQAV45@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        f:\suddy\vc\wapgate\terapicohttprequest.h(18) : see reference to class template instantiation 'std::list<class terapico::CTeraPicoHttpHeader *,class std::allocator<class terapico::CTeraPicoHttpHeader *> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<terapico::CTeraPicoHttpHeader *,std::allocator<terapico::CTeraPicoHttpHeader *> >::const_iterator,terapico::CTeraPicoHttpHeader *,terapico::CTeraPicoHttpHeader * const &,terapico::CTeraPicoHttpHeader * const *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<terapico::CTeraPicoHttpHeader *,std::allocator<terapico::CTeraPicoHttpHeader *> >::std::list<terapico::CTeraPicoHttpHeader *,std::allocator<terapico::CTeraPicoHttpHeader *> >(const std::allocator<terapico::CTeraPicoHttpHeader *> &)'
+TeraPicoLocalUdpSocket.cpp
+TeraPicoLogFile.cpp
+TeraPicoMemoryPool.cpp
+TeraPicoRemoteSocket.cpp
+TeraPicoRemoteUdpSocket.cpp
+TeraPicoServerSocket.cpp
+TeraPicoWapGateService.cpp
+WapGate.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP523.tmp" with contents
+[
+/nologo /o"Debug/WapGate.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\TeraPicoClientSocket.sbr
+.\Debug\TeraPicoHttpBody.sbr
+.\Debug\TeraPicoHttpContent.sbr
+.\Debug\TeraPicoHttpHeader.sbr
+.\Debug\TeraPicoHttpRequest.sbr
+.\Debug\TeraPicoLocalUdpSocket.sbr
+.\Debug\TeraPicoLogFile.sbr
+.\Debug\TeraPicoMemoryPool.sbr
+.\Debug\TeraPicoRemoteSocket.sbr
+.\Debug\TeraPicoRemoteUdpSocket.sbr
+.\Debug\TeraPicoServerSocket.sbr
+.\Debug\TeraPicoWapGateService.sbr
+.\Debug\WapGate.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP523.tmp"
+Creating browse info file...
+bscmake.exe terminated at user request.
+
+</pre>
+</body>
+</html>

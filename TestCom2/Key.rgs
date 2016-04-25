@@ -1,0 +1,26 @@
+HKCR
+{
+	TestCom2.Key.1 = s 'Key Class'
+	{
+		CLSID = s '{D927614A-B947-416E-9E86-33F389A878B0}'
+	}
+	TestCom2.Key = s 'Key Class'
+	{
+		CLSID = s '{D927614A-B947-416E-9E86-33F389A878B0}'
+		CurVer = s 'TestCom2.Key.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {D927614A-B947-416E-9E86-33F389A878B0} = s 'Key Class'
+		{
+			ProgID = s 'TestCom2.Key.1'
+			VersionIndependentProgID = s 'TestCom2.Key'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{4BEC945F-8932-4A3E-BE4B-F8C279F58EC6}'
+		}
+	}
+}

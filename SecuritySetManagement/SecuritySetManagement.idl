@@ -1,0 +1,39 @@
+// SecuritySetManagement.idl : IDL source for SecuritySetManagement.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (SecuritySetManagement.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(55C89FF3-1EF0-4675-912C-B8242A00DC18),
+		dual,
+		helpstring("IIssuer Interface"),
+		pointer_default(unique)
+	]
+	interface IIssuer : IDispatch
+	{
+		[id(1), helpstring("method issue")] HRESULT issue([in]BSTR url, [in]BSTR username, [in]BSTR password,[out,retval] BSTR *result);
+	};
+
+[
+	uuid(65BFBC85-EE9E-4406-8744-79FB7BCAABCE),
+	version(1.0),
+	helpstring("SecuritySetManagement 1.0 Type Library")
+]
+library SECURITYSETMANAGEMENTLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(B3091848-9674-4703-87CE-4DB145309BD4),
+		helpstring("Issuer Class")
+	]
+	coclass Issuer
+	{
+		[default] interface IIssuer;
+	};
+};

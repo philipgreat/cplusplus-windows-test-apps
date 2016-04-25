@@ -1,0 +1,94 @@
+// dbDoc.cpp : implementation of the CDbDoc class
+//
+
+#include "stdafx.h"
+#include "db.h"
+
+#include "dbDoc.h"
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+// CDbDoc
+
+IMPLEMENT_DYNCREATE(CDbDoc, CDocument)
+
+BEGIN_MESSAGE_MAP(CDbDoc, CDocument)
+	//{{AFX_MSG_MAP(CDbDoc)
+	ON_COMMAND(ID_APP_EXIT, OnAppExit)
+	//}}AFX_MSG_MAP
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////
+// CDbDoc construction/destruction
+
+//##ModelId=4092354E03D9
+CDbDoc::CDbDoc()
+{
+	// TODO: add one-time construction code here
+
+}
+
+//##ModelId=4092354F0011
+CDbDoc::~CDbDoc()
+{
+}
+
+//##ModelId=4092354F0000
+BOOL CDbDoc::OnNewDocument()
+{
+
+
+	return TRUE;
+}
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+// CDbDoc serialization
+
+//##ModelId=4092354F0002
+void CDbDoc::Serialize(CArchive& ar)
+{
+	if (ar.IsStoring())
+	{
+		// TODO: add storing code here
+	}
+	else
+	{
+		// TODO: add loading code here
+	}
+}
+
+/////////////////////////////////////////////////////////////////////////////
+// CDbDoc diagnostics
+
+#ifdef _DEBUG
+//##ModelId=4092354F0013
+void CDbDoc::AssertValid() const
+{
+	
+	CDocument::AssertValid();
+}
+
+//##ModelId=4092354F0020
+void CDbDoc::Dump(CDumpContext& dc) const
+{
+	CDocument::Dump(dc);
+}
+#endif //_DEBUG
+
+/////////////////////////////////////////////////////////////////////////////
+// CDbDoc commands
+
+//##ModelId=4092354F0023
+void CDbDoc::OnAppExit() 
+{
+	// TODO: Add your command handler code here
+	
+}
+

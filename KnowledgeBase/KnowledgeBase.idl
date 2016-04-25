@@ -1,0 +1,39 @@
+// KnowledgeBase.idl : IDL source for KnowledgeBase.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (KnowledgeBase.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(E45421B6-9E1B-45B1-99B0-0842480B26C3),
+		dual,
+		helpstring("IHelpTool Interface"),
+		pointer_default(unique)
+	]
+	interface IHelpTool : IDispatch
+	{
+		[id(1), helpstring("method AddToHelpStore")] HRESULT AddToHelpStore([in] BSTR title,[in] BSTR content, [in] BSTR keywords);
+	};
+
+[
+	uuid(CFE9FB7F-7CD8-4954-99AE-7F8CBDA33F9D),
+	version(1.0),
+	helpstring("KnowledgeBase 1.0 Type Library")
+]
+library KNOWLEDGEBASELib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(DBCC8250-6FC1-4AEB-A74A-64A8B36E3E2E),
+		helpstring("HelpTool Class")
+	]
+	coclass HelpTool
+	{
+		[default] interface IHelpTool;
+	};
+};

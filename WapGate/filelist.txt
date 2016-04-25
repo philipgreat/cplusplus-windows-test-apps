@@ -1,0 +1,44 @@
+ 驱动器 F 中的卷是 document
+ 卷的序列号是 C430-FC5A
+
+ F:\suddy\vc\WapGate 的目录
+
+2003-11-18  23:50                  194 CommonSocket.cpp
+2003-11-16  23:54                  294 StdAfx.cpp
+2003-11-18  18:16                  811 TeraPicoBook.cpp
+2003-11-19  14:06                1,708 TeraPicoClientSocket.cpp
+2003-11-18  11:22                  939 TeraPicoHttpBody.cpp
+2003-11-18  11:22                1,091 TeraPicoHttpContent.cpp
+2003-11-18  11:22                  923 TeraPicoHttpHeader.cpp
+2003-11-18  11:22                1,039 TeraPicoHttpRequest.cpp
+2003-11-20  15:00                  933 TeraPicoLocalUdpSocket.cpp
+2003-11-20  15:58                2,746 TeraPicoLogFile.cpp
+2003-11-18  11:22                1,373 TeraPicoMemoryPool.cpp
+2003-11-19  15:09                3,127 TeraPicoRemoteSocket.cpp
+2003-11-20  15:21                2,465 TeraPicoRemoteUdpSocket.cpp
+2003-11-20  15:26                2,823 TeraPicoServerSocket.cpp
+2003-11-18  18:16                  861 TeraPicoStudent.cpp
+2003-11-19  12:14                1,630 TeraPicoWapGateService.cpp
+2003-11-20  15:59                  619 WapGate.cpp
+
+ F:\suddy\vc\WapGate 的目录
+
+2003-11-18  23:53                  288 commonsocket.h
+2003-11-16  23:54                  769 StdAfx.h
+2003-11-18  18:16                  709 TeraPicoBook.h
+2003-11-19  14:05                1,025 TeraPicoClientSocket.h
+2003-11-20  15:39                  924 TeraPicoCommon.h
+2003-11-18  11:22                  767 TeraPicoHttpBody.h
+2003-11-18  11:22                  961 TeraPicoHttpContent.h
+2003-11-18  11:22                  772 TeraPicoHttpHeader.h
+2003-11-18  11:22                1,605 TeraPicoHttpRequest.h
+2003-11-20  15:00                  789 TeraPicoLocalUdpSocket.h
+2003-11-20  15:39                1,069 TeraPicoLogFile.h
+2003-11-18  11:22                  976 TeraPicoMemoryPool.h
+2003-11-20  15:08                1,176 TeraPicoRemoteSocket.h
+2003-11-20  15:09                1,027 TeraPicoRemoteUdpSocket.h
+2003-11-19  00:03                  940 TeraPicoServerSocket.h
+2003-11-18  18:16                1,963 TeraPicoStudent.h
+2003-11-18  11:22                1,058 TeraPicoWapGateService.h
+              34 个文件         40,394 字节
+               0 个目录  6,432,141,312 可用字节

@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CPUUsage - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\hp\LOCALS~1\Temp\RSPB0.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\suddy\vc\CPUUsage\CPUUsage.cpp"
+"F:\suddy\vc\CPUUsage\UDPClient.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\hp\LOCALS~1\Temp\RSPB0.tmp" 
+Creating temporary file "C:\DOCUME~1\hp\LOCALS~1\Temp\RSPB1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/CPUUsage.pdb" /machine:I386 /out:"Release/CPUUsage.exe" 
+.\Release\CPUUsage.obj
+.\Release\StdAfx.obj
+.\Release\UDPClient.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\hp\LOCALS~1\Temp\RSPB1.tmp"
+<h3>Output Window</h3>
+Compiling...
+CPUUsage.cpp
+UDPClient.cpp
+Generating Code...
+Linking...
+LINK : fatal error LNK1104: cannot open file "stlport_vc6_static.lib"
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+CPUUsage.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

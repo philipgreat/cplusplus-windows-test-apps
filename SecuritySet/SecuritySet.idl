@@ -1,0 +1,40 @@
+// SecuritySet.idl : IDL source for SecuritySet.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (SecuritySet.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(A31FF10C-B204-4231-885B-621F0CC19924),
+		dual,
+		helpstring("IHaspKey Interface"),
+		pointer_default(unique)
+	]
+	interface IHaspKey : IDispatch
+	{
+		[id(2), helpstring("method login")] HRESULT login([in]BSTR url,[in]BSTR username, [in]BSTR password,[retval,out]BSTR *result);
+		[id(3), helpstring("method applyToken")] HRESULT applyToken([in]BSTR url,[in]BSTR cookie,[out, retval] BSTR* result);
+	};
+
+[
+	uuid(FB3772A1-F645-4AE2-AE96-97709894FA0C),
+	version(1.0),
+	helpstring("SecuritySet 1.0 Type Library")
+]
+library SECURITYSETLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(CCD223DE-B3FB-4F5A-BB71-5268E2FCB4AB),
+		helpstring("HaspKey Class")
+	]
+	coclass HaspKey
+	{
+		[default] interface IHaspKey;
+	};
+};

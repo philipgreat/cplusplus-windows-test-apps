@@ -1,0 +1,43 @@
+﻿Build started 2012/3/6 22:16:35.
+     1>Project "F:\suddy\vc\DockDesktop\SnapShot.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\SnapShot.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\DEV\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ShotTest2.cpp StdAfx.cpp
+         ShotTest2.cpp
+     1>ShotTest2.cpp(8): warning C4005: 'WS_EX_LAYERED' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.h(2529) : see previous definition of 'WS_EX_LAYERED'
+     1>ShotTest2.cpp(9): warning C4005: 'LWA_ALPHA' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.h(4025) : see previous definition of 'LWA_ALPHA'
+     1>ShotTest2.cpp(10): warning C4005: 'LWA_COLORKEY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.h(4024) : see previous definition of 'LWA_COLORKEY'
+         StdAfx.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\ShotTest2.res" ShotTest2.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Release\SnapShot.exe.embed.manifest.res" Release\SnapShot_manifest.rc 
+       Link:
+         D:\DEV\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\suddy\vc\DockDesktop\Release\SnapShot.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\SnapShot.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\suddy\vc\DockDesktop\Release\SnapShot.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\suddy\vc\DockDesktop\Release\SnapShot.lib" /MACHINE:X86 Release\ShotTest2.res
+         Release\SnapShot.exe.embed.manifest.res
+         Release\ShotTest2.obj
+         Release\StdAfx.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Release\SnapShot.exe.embed.manifest" /manifest Release\SnapShot.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Release\SnapShot.exe.embed.manifest.res" Release\SnapShot_manifest.rc 
+       LinkEmbedManifest:
+         D:\DEV\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\suddy\vc\DockDesktop\Release\SnapShot.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\SnapShot.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\suddy\vc\DockDesktop\Release\SnapShot.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\suddy\vc\DockDesktop\Release\SnapShot.lib" /MACHINE:X86 Release\ShotTest2.res
+         Release\SnapShot.exe.embed.manifest.res
+         Release\ShotTest2.obj
+         Release\StdAfx.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+         SnapShot.vcxproj -> F:\suddy\vc\DockDesktop\Release\SnapShot.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\SnapShot.unsuccessfulbuild".
+         Touching "Release\SnapShot.lastbuildstate".
+     1>Done Building Project "F:\suddy\vc\DockDesktop\SnapShot.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.00

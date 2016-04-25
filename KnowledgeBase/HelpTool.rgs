@@ -1,0 +1,26 @@
+HKCR
+{
+	KnowledgeBase.HelpTool.1 = s 'HelpTool Class'
+	{
+		CLSID = s '{DBCC8250-6FC1-4AEB-A74A-64A8B36E3E2E}'
+	}
+	KnowledgeBase.HelpTool = s 'HelpTool Class'
+	{
+		CLSID = s '{DBCC8250-6FC1-4AEB-A74A-64A8B36E3E2E}'
+		CurVer = s 'KnowledgeBase.HelpTool.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {DBCC8250-6FC1-4AEB-A74A-64A8B36E3E2E} = s 'HelpTool Class'
+		{
+			ProgID = s 'KnowledgeBase.HelpTool.1'
+			VersionIndependentProgID = s 'KnowledgeBase.HelpTool'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{CFE9FB7F-7CD8-4954-99AE-7F8CBDA33F9D}'
+		}
+	}
+}

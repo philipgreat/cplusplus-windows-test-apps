@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IMETest4 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSPA39.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "IMETEST4_EXPORTS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\suddy\vc\IMETest4\ime.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSPA39.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSPA3A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/e2c.pdb" /debug /machine:I386 /out:"c:/winnt/system32/e2c.ime" /implib:"Debug/e2c.lib" /pdbtype:sept 
+.\Debug\ime.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSPA3A.tmp"
+<h3>Output Window</h3>
+Compiling...
+ime.c
+f:\suddy\vc\imetest4\ime.c(34) : warning C4013: 'CreateSecurityAttributes' undefined; assuming extern returning int
+f:\suddy\vc\imetest4\ime.c(34) : warning C4047: '=' : 'struct _SECURITY_ATTRIBUTES *' differs in levels of indirection from 'int '
+f:\suddy\vc\imetest4\ime.c(36) : error C2065: 'hMutex' : undeclared identifier
+f:\suddy\vc\imetest4\ime.c(36) : warning C4047: '=' : 'int ' differs in levels of indirection from 'void *'
+f:\suddy\vc\imetest4\ime.c(37) : warning C4013: 'FreeSecurityAttributes' undefined; assuming extern returning int
+f:\suddy\vc\imetest4\ime.c(38) : warning C4047: '==' : 'int ' differs in levels of indirection from 'void *'
+f:\suddy\vc\imetest4\ime.c(46) : error C2065: 'hInst' : undeclared identifier
+f:\suddy\vc\imetest4\ime.c(46) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct HINSTANCE__ *'
+f:\suddy\vc\imetest4\ime.c(47) : warning C4013: 'IMERegisterClass' undefined; assuming extern returning int
+f:\suddy\vc\imetest4\ime.c(50) : error C2065: 'szDicFileName' : undeclared identifier
+f:\suddy\vc\imetest4\ime.c(54) : warning C4047: 'function' : 'struct HINSTANCE__ *' differs in levels of indirection from 'int '
+f:\suddy\vc\imetest4\ime.c(54) : warning C4024: 'LoadStringA' : different types for formal and actual parameter 1
+f:\suddy\vc\imetest4\ime.c(54) : error C2065: 'IDS_DICFILENAME' : undeclared identifier
+f:\suddy\vc\imetest4\ime.c(56) : warning C4013: 'SetGlobalFlags' undefined; assuming extern returning int
+f:\suddy\vc\imetest4\ime.c(65) : error C2065: 'szUIClassName' : undeclared identifier
+f:\suddy\vc\imetest4\ime.c(65) : warning C4047: 'function' : 'const char *' differs in levels of indirection from 'int '
+f:\suddy\vc\imetest4\ime.c(65) : warning C4024: 'UnregisterClassA' : different types for formal and actual parameter 1
+f:\suddy\vc\imetest4\ime.c(65) : warning C4047: 'function' : 'struct HINSTANCE__ *' differs in levels of indirection from 'int '
+f:\suddy\vc\imetest4\ime.c(65) : warning C4024: 'UnregisterClassA' : different types for formal and actual parameter 2
+f:\suddy\vc\imetest4\ime.c(66) : error C2065: 'szCompStrClassName' : undeclared identifier
+f:\suddy\vc\imetest4\ime.c(66) : warning C4047: 'function' : 'const char *' differs in levels of indirection from 'int '
+f:\suddy\vc\imetest4\ime.c(66) : warning C4024: 'UnregisterClassA' : different types for formal and actual parameter 1
+f:\suddy\vc\imetest4\ime.c(66) : warning C4047: 'function' : 'struct HINSTANCE__ *' differs in levels of indirection from 'int '
+f:\suddy\vc\imetest4\ime.c(66) : warning C4024: 'UnregisterClassA' : different types for formal and actual parameter 2
+f:\suddy\vc\imetest4\ime.c(67) : error C2065: 'szCandClassName' : undeclared identifier
+f:\suddy\vc\imetest4\ime.c(67) : warning C4047: 'function' : 'const char *' differs in levels of indirection from 'int '
+f:\suddy\vc\imetest4\ime.c(67) : warning C4024: 'UnregisterClassA' : different types for formal and actual parameter 1
+f:\suddy\vc\imetest4\ime.c(67) : warning C4047: 'function' : 'struct HINSTANCE__ *' differs in levels of indirection from 'int '
+f:\suddy\vc\imetest4\ime.c(67) : warning C4024: 'UnregisterClassA' : different types for formal and actual parameter 2
+f:\suddy\vc\imetest4\ime.c(68) : error C2065: 'szStatusClassName' : undeclared identifier
+f:\suddy\vc\imetest4\ime.c(68) : warning C4047: 'function' : 'const char *' differs in levels of indirection from 'int '
+f:\suddy\vc\imetest4\ime.c(68) : warning C4024: 'UnregisterClassA' : different types for formal and actual parameter 1
+f:\suddy\vc\imetest4\ime.c(68) : warning C4047: 'function' : 'struct HINSTANCE__ *' differs in levels of indirection from 'int '
+f:\suddy\vc\imetest4\ime.c(68) : warning C4024: 'UnregisterClassA' : different types for formal and actual parameter 2
+f:\suddy\vc\imetest4\ime.c(70) : warning C4022: 'CloseHandle' : pointer mismatch for actual parameter 1
+f:\suddy\vc\imetest4\ime.c(104) : error C2065: 'PRIVCONTEXT' : undeclared identifier
+f:\suddy\vc\imetest4\ime.c(114) : error C2065: 'lpszWndCls' : undeclared identifier
+f:\suddy\vc\imetest4\ime.c(114) : warning C4047: 'function' : 'char *' differs in levels of indirection from 'int '
+f:\suddy\vc\imetest4\ime.c(114) : warning C4024: 'lstrcpyA' : different types for formal and actual parameter 1
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+e2c.ime - 10 error(s), 29 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CWService - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSPD.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_UNICODE" /D "UNICODE" /D "VCPROJECT_DEBUG" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\suddy\vc\CWService\BaseCertificate.cpp"
+"F:\suddy\vc\CWService\CertificateManager.cpp"
+"F:\suddy\vc\CWService\CertificateParserHelper.cpp"
+"F:\suddy\vc\CWService\CWService.cpp"
+"F:\suddy\vc\CWService\DirectoryHelper.cpp"
+"F:\suddy\vc\CWService\GenericSAXParser.cpp"
+"F:\suddy\vc\CWService\HttpUtil.cpp"
+"F:\suddy\vc\CWService\SerializableCertificate.cpp"
+"F:\suddy\vc\CWService\VolatileCertificate.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSPD.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSPE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/CWService.pdb" /debug /machine:I386 /out:"Debug/CWService.exe" /pdbtype:sept 
+.\Debug\BaseCertificate.obj
+.\Debug\CertificateManager.obj
+.\Debug\CertificateParserHelper.obj
+.\Debug\CWService.obj
+.\Debug\DirectoryHelper.obj
+.\Debug\FackHandle.obj
+.\Debug\GenericSAXParser.obj
+.\Debug\HttpUtil.obj
+.\Debug\Parameter.obj
+.\Debug\Parameters.obj
+.\Debug\RequestQueue.obj
+.\Debug\SerializableCertificate.obj
+.\Debug\ServiceObject.obj
+.\Debug\ServiceRequest.obj
+.\Debug\STBConfiguration.obj
+.\Debug\UdpServer.obj
+.\Debug\URLParameters.obj
+.\Debug\VolatileCertificate.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSPE.tmp"
+<h3>Output Window</h3>
+Compiling...
+BaseCertificate.cpp
+f:\suddy\vc\cwservice\basecertificate.cpp(5) : fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+CertificateManager.cpp
+c:\program files\microsoft visual studio\vc98\include\istream(556) : error C2059: syntax error : 'catch'
+c:\program files\microsoft visual studio\vc98\include\istream(556) : error C2143: syntax error : missing ';' before '{'
+c:\program files\microsoft visual studio\vc98\include\istream(558) : error C2712: Cannot use __try in functions that require object unwinding
+c:\program files\microsoft visual studio\vc98\include\istream(576) : error C2059: syntax error : 'catch'
+c:\program files\microsoft visual studio\vc98\include\istream(576) : error C2143: syntax error : missing ';' before '{'
+f:\suddy\vc\cwservice\certificatemanager.h(32) : fatal error C1083: Cannot open include file: 'TaskDefine.h': No such file or directory
+CertificateParserHelper.cpp
+f:\suddy\vc\cwservice\certificateparserhelper.cpp(5) : fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+CWService.cpp
+f:\suddy\vc\cwservice\cwservice.cpp(4) : fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+DirectoryHelper.cpp
+f:\suddy\vc\cwservice\directoryhelper.cpp(5) : fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+GenericSAXParser.cpp
+f:\suddy\vc\cwservice\genericsaxparser.cpp(5) : fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+HttpUtil.cpp
+f:\suddy\vc\cwservice\httputil.cpp(117) : warning C4018: '<' : signed/unsigned mismatch
+c:\program files\microsoft visual studio\vc98\include\istream(556) : error C2059: syntax error : 'catch'
+c:\program files\microsoft visual studio\vc98\include\istream(556) : error C2143: syntax error : missing ';' before '{'
+c:\program files\microsoft visual studio\vc98\include\istream(558) : error C2712: Cannot use __try in functions that require object unwinding
+c:\program files\microsoft visual studio\vc98\include\istream(576) : error C2059: syntax error : 'catch'
+c:\program files\microsoft visual studio\vc98\include\istream(576) : error C2143: syntax error : missing ';' before '{'
+SerializableCertificate.cpp
+f:\suddy\vc\cwservice\serializablecertificate.cpp(5) : fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+VolatileCertificate.cpp
+f:\suddy\vc\cwservice\volatilecertificate.cpp(5) : fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+CWService.exe - 18 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

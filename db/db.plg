@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: db - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP21.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/db.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\suddy\vc\db\fm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP21.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP22.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/db.pdb" /machine:I386 /out:"Release/db.exe" 
+.\Release\CCButton.obj
+.\Release\CCControlBar.obj
+.\Release\CCTabctrlBar.obj
+.\Release\ChildFrm.obj
+.\Release\db.obj
+.\Release\dbDoc.obj
+.\Release\dbView.obj
+.\Release\FindResultView.obj
+.\Release\FindToolBar.obj
+.\Release\fm.obj
+.\Release\inifile.obj
+.\Release\look.obj
+.\Release\MainFrm.obj
+.\Release\mysql.obj
+.\Release\StdAfx.obj
+.\Release\SYSTEMTRAY.OBJ
+.\Release\TeraPicoRegKey.obj
+.\Release\texttospeech.obj
+.\Release\db.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP22.tmp"
+<h3>Output Window</h3>
+Compiling...
+fm.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP24.tmp" with contents
+[
+/nologo /o"Release/db.bsc" 
+.\Release\StdAfx.sbr
+.\Release\CCButton.sbr
+.\Release\CCControlBar.sbr
+.\Release\CCTabctrlBar.sbr
+.\Release\ChildFrm.sbr
+.\Release\db.sbr
+.\Release\dbDoc.sbr
+.\Release\dbView.sbr
+.\Release\FindResultView.sbr
+.\Release\FindToolBar.sbr
+.\Release\fm.sbr
+.\Release\inifile.sbr
+.\Release\look.sbr
+.\Release\MainFrm.sbr
+.\Release\mysql.sbr
+.\Release\SYSTEMTRAY.SBR
+.\Release\TeraPicoRegKey.sbr
+.\Release\texttospeech.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP24.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+db.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
